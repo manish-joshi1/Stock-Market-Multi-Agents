@@ -1,0 +1,86 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="2.7" />
+            <item index="1" class="java.lang.String" itemvalue="3.12" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="Django" />
+          <option value="django-cors-headers" />
+          <option value="django-debug-toolbar" />
+          <option value="django-filter" />
+          <option value="django-graphiql-debug-toolbar" />
+          <option value="django-htmx" />
+          <option value="django-mptt" />
+          <option value="django-pglocks" />
+          <option value="django-prometheus" />
+          <option value="django-redis" />
+          <option value="django-rich" />
+          <option value="django-rq" />
+          <option value="django-storages" />
+          <option value="django-tables2" />
+          <option value="django-taggit" />
+          <option value="django-timezone-field" />
+          <option value="djangorestframework" />
+          <option value="drf-spectacular" />
+          <option value="drf-spectacular-sidecar" />
+          <option value="feedparser" />
+          <option value="gunicorn" />
+          <option value="Jinja2" />
+          <option value="jsonschema" />
+          <option value="Markdown" />
+          <option value="mkdocs-material" />
+          <option value="mkdocstrings" />
+          <option value="netaddr" />
+          <option value="nh3" />
+          <option value="Pillow" />
+          <option value="psycopg" />
+          <option value="PyYAML" />
+          <option value="requests" />
+          <option value="rq" />
+          <option value="social-auth-app-django" />
+          <option value="social-auth-core" />
+          <option value="strawberry-graphql" />
+          <option value="strawberry-graphql-django" />
+          <option value="svgwrite" />
+          <option value="tablib" />
+          <option value="tzdata" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="djangorestframework" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="jelastic.api.abstract._get.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="TsLint" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>
